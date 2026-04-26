@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Liste pour Elinor</title>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family:Arial, sans-serif;
+                background-color:#111;
+                color:white;
+                margin:0;
+            }
+            header{
+                background-color:#e57009;
+                padding:20px;
+                text-align:center;
+            }
+            h1{margin:0;
+                font-family:tangerine,cursive;
+                height:36px;
+                font-size:42px;
+            }
+            
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .film {
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .film:hover {
+            transform: scale(1.05);
+        }
+
+        .film img {
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+        }
+
+        .film-content {
+            padding: 10px;
+        }
+
+        .film h2 {
+            font-size: 18px;
+            margin: 0 0 10px;
+            text-align:center;
+        }
+
+        .film p {
+            font-size: 14px;
+            color: #ccc;
+            margin:10px;
+        }
+
+        </style>
+        <meta charset='UTF-8'>
+    </head>
+    <body>
+        <header>
+            <h1>Ta liste de films</h1>
+        </header>
+        <div class="container">
+
+            <div class="film">
+                <img src="https://media.senscritique.com/media/000019993631/0/isi_ossi.jpg" alt="affiche film">
+                <div class="film content">
+                    <h2>Isi & Ossi</h2>
+                    <p>Celui là j'ai déjà dû t'en parler, je l'adore même si c'est un tout petit peu culcul</p>
+
+                </div>
+            </div>
+
+            <div class="film">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7gOihX8pvX_Xzewg0dKvR9fV5oSMChNEPg&s" alt="affiche film">
+                <div class="film content">
+                    <h2>Polar</h2>
+                    <p>On en a parlé, un petit film d'action sympa en plus on voit des nichons!</p>
+
+                </div>
+            </div>
+
+            <div class="film">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/3bd880653824fcf06a213984148e8b1027fa1d7ceb33d59278beb1186fd7efa5.jpg" alt="affiche film">
+                <div class="film content">
+                    <h2>Primitive War</h2>
+                    <p>Celui ci ne plait pas à tout le monde mais putain je l'adore, des dinos, des fligues et des bonnes musiques</p>
+                </div>
+            </div>
+
+        </div>
+    </body>        
+</html>
